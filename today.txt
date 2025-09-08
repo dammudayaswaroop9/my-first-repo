@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        /* Style for the menu bar */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Add responsiveness */
+        @media screen and (max-width: 600px) {
+            .navbar a {
+                float: none;
+                width: 100%;
+                text-align: left;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Restaurant Menu Bar -->
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div id="home">
+        <h2>Welcome to Our Restaurant</h2>
+        <p>Your culinary adventure starts here!</p>
+    </div>
+
+    <div id="menu">
+        <h2>Our Menu</h2>
+        <p>Delicious dishes await you!</p>
+    </div>
+
+    <div id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our restaurant's story and vision.</p>
+    </div>
+
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for reservations and inquiries.</p>
+    </div>
+
+</body>
+</html>
